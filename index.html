@@ -33,13 +33,14 @@ canvas {
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 4;
-  opacity: 0.5;
+
   white-space: nowrap;
   pointer-events: none;
 }
 
 #logo > img {
-  height: 9.2vmin;
+  height: 9vmin;
+  border-radius:50%;
 }
 
 #background-image,
@@ -53,7 +54,7 @@ canvas {
   
 #background-image {
   z-index: 1;
-  background-image: url(img/5960637351367653942_119.jpg);
+  background-image: url(img/bg.jpg);
   background-size: cover;
   background-position: center;
   opacity: 0.8;
@@ -62,7 +63,7 @@ canvas {
 
 #background-filter {
   z-index: 2;
-  background: radial-gradient(rgb(0 0 0 / 60%) 50%, transparent);
+  background: radial-gradient(rgba(0, 0, 0, 0.39) 50%, transparent);
 }
 
 #control-bar-wrapper {
@@ -148,7 +149,7 @@ body:has(#sound-toggle[data-toggled="true"]) #sound-message {
 <div id="background-filter"></div>
 
 <div id="logo">
-  <img src="img/s-_-logo-concept-for-sale-by-bohdan-harbaruk-on-dribbble-removebg(1).png" alt="" />
+  <img src="img/profile.jpg" alt="" />
 </div>
 
 <div id="sound-message">

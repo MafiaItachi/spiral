@@ -3,4 +3,4 @@
 
 
 
-https://shubham01015.github.io/spiral/
+https://mafiaitachi.github.io/spiral/
